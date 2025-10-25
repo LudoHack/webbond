@@ -7,8 +7,8 @@
 ## 🌐 URLs del Proyecto
 
 - **Demo en Vivo**: https://3000-igjgov9n20il3tm80ulkg-8f57ffe2.sandbox.novita.ai
+- **GitHub**: https://github.com/LudoHack/webbond
 - **Google Maps**: https://goo.gl/maps/thebond-departamentos
-- **GitHub**: (Pendiente de configuración)
 - **Producción Cloudflare**: (Pendiente de deployment)
 
 ## 🆕 Últimas Actualizaciones
