@@ -7,8 +7,32 @@
 ## 🌐 URLs del Proyecto
 
 - **Demo en Vivo**: https://3000-igjgov9n20il3tm80ulkg-8f57ffe2.sandbox.novita.ai
+- **Google Maps**: https://goo.gl/maps/thebond-departamentos
 - **GitHub**: (Pendiente de configuración)
 - **Producción Cloudflare**: (Pendiente de deployment)
+
+## 🆕 Últimas Actualizaciones
+
+### Versión 2.0 - Actualización con Información Real (Octubre 2025)
+
+✅ **Contactos Actualizados**
+- WhatsApp: +591 76154045
+- Email: ventas@edificiothebond.es
+
+✅ **Google Maps Real Integrado**
+- Iframe de Google Maps con ubicación exacta
+- Link directo a navegación
+
+✅ **Nueva Sección: "Vive donde siempre quisiste vivir"**
+- Grid de 10 servicios cercanos con iconos
+- Restaurantes, Supermercados, Panaderías, Hospitales, Gimnasios
+- Parques, Farmacias, Escuelas, Veterinarias, Cajeros
+- Diseño inspirado en el brochure proporcionado
+
+✅ **Ajustes de Copy**
+- Eliminado "Preventa Exclusiva"
+- Nuevo badge: "Vive donde siempre quisiste vivir"
+- Mensajes más aspiracionales
 
 ## ✨ Características Principales
 
@@ -16,7 +40,7 @@
 
 1. **🎯 Hero Section**
    - Banner impactante con imagen de fondo
-   - Badge de "Preventa Exclusiva"
+   - Badge: "Vive donde siempre quisiste vivir"
    - Características destacadas (ubicación, precio, plusvalía)
    - Doble CTA: "Agenda tu Visita" y "Calcula tu Cuota"
    - Efecto de scroll animado
@@ -49,11 +73,19 @@
    - Validación de 30% máximo de ingresos
 
 5. **📍 Ubicación**
-   - Mapa visual placeholder
+   - Google Maps integrado (iframe real)
    - Cercanía a 3 universidades (UCEBOL, UNIVALLE, UDI)
    - Comercios y servicios cercanos
    - Conectividad y tiempos de traslado
    - Grid organizado por categorías
+
+5.1. **🏙️ Servicios Cercanos** ⭐ NUEVO
+   - Grid visual de 10 servicios clave
+   - Iconos personalizados estilo la imagen proporcionada
+   - Restaurantes, Supermercados, Panaderías
+   - Hospitales, Gimnasios, Parques
+   - Farmacias, Escuelas, Veterinarias, Cajeros
+   - Animaciones hover interactivas
 
 6. **💰 Inversión y Rentabilidad**
    - Proyección de plusvalía 40-50% en 5 años
@@ -281,10 +313,15 @@ Endpoint para recepción de formularios de contacto.
 ## 📱 Integraciones
 
 ### WhatsApp
-- Número: +591 7000 0000
+- Número: +591 76154045
 - Botón flotante en todas las páginas
 - Links directos con mensaje pre-llenado
-- Formato: `https://wa.me/59170000000?text=`
+- Formato: `https://wa.me/59176154045?text=`
+
+### Email
+- Contacto: ventas@edificiothebond.es
+- Formulario integrado con validación
+- API endpoint: `/api/contact`
 
 ### Redes Sociales (Placeholder)
 - Facebook: Pendiente
@@ -444,10 +481,10 @@ Para contribuir al proyecto:
 
 ## 📞 Contacto del Proyecto
 
-- **Email**: info@thebond.com
-- **Teléfono**: +591 7000 0000
-- **WhatsApp**: +591 7000 0000
+- **Email**: ventas@edificiothebond.es
+- **Teléfono / WhatsApp**: +591 76154045
 - **Ubicación**: Av. Banzer entre 5º y 6º Anillo, Zona Norte, Santa Cruz de la Sierra
+- **Google Maps**: [Ver ubicación](https://www.google.com/maps/place/The+Bond+Departamentos)
 
 ---
 
