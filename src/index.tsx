@@ -23,7 +23,7 @@ app.get('/', (c) => {
         <div class="hero-overlay"></div>
         <div class="hero-content">
           <div class="container">
-            <div class="hero-badge">🏆 Preventa Exclusiva</div>
+            <div class="hero-badge">🏢 Vive donde siempre quisiste vivir</div>
             <h1 class="hero-title">The Bond Departamentos</h1>
             <p class="hero-subtitle">Tu inversión inteligente en la zona de mayor crecimiento de Santa Cruz</p>
             <div class="hero-features">
@@ -262,10 +262,15 @@ app.get('/', (c) => {
           </div>
           <div class="location-content">
             <div class="location-map">
-              <div class="map-placeholder">
-                <i class="fas fa-map-marked-alt"></i>
-                <p>Av. Banzer entre 5º y 6º Anillo<br/>Zona Norte - Santa Cruz de la Sierra</p>
-              </div>
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.097623547076!2d-63.13965892499478!3d-17.759499483155645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e7000181b1bb%3A0xbf1164ed9480f382!2sThe%20Bond%20Departamentos!5e0!3m2!1ses!2sbo!4v1729857634123!5m2!1ses!2sbo" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
             </div>
             <div class="location-features">
               <h3>¿Qué hay cerca?</h3>
@@ -293,6 +298,88 @@ app.get('/', (c) => {
                   <li><i class="fas fa-check-circle"></i> Rutas principales cercanas</li>
                 </ul>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Nearby Services Section */}
+      <section id="servicios" class="services-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Vive donde siempre quisiste vivir</h2>
+            <p class="section-subtitle">Todo lo que necesitas a pocos minutos de distancia</p>
+          </div>
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-utensils"></i>
+              </div>
+              <h3>Restaurantes</h3>
+              <p>Variedad gastronómica a tu alcance</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+              <h3>Supermercados</h3>
+              <p>Compras diarias sin complicaciones</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-bread-slice"></i>
+              </div>
+              <h3>Panaderías</h3>
+              <p>Pan fresco todas las mañanas</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-hospital"></i>
+              </div>
+              <h3>Hospitales</h3>
+              <p>Atención médica de calidad cerca</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-dumbbell"></i>
+              </div>
+              <h3>Gimnasios</h3>
+              <p>Mantén tu estilo de vida activo</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-tree"></i>
+              </div>
+              <h3>Parques</h3>
+              <p>Espacios verdes para relajarte</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-pills"></i>
+              </div>
+              <h3>Farmacias</h3>
+              <p>Salud y bienestar siempre disponible</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <h3>Escuelas</h3>
+              <p>Educación de calidad para tus hijos</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-paw"></i>
+              </div>
+              <h3>Veterinarias</h3>
+              <p>Cuidado profesional para tus mascotas</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-money-bill-wave"></i>
+              </div>
+              <h3>Cajeros</h3>
+              <p>Acceso fácil a servicios bancarios</p>
             </div>
           </div>
         </div>
@@ -438,15 +525,15 @@ app.get('/', (c) => {
               <div class="contact-item">
                 <i class="fas fa-phone"></i>
                 <div>
-                  <h4>Teléfono</h4>
-                  <p><a href="tel:+59170000000">+591 7000 0000</a></p>
+                  <h4>Teléfono / WhatsApp</h4>
+                  <p><a href="tel:+59176154045">+591 76154045</a></p>
                 </div>
               </div>
               <div class="contact-item">
                 <i class="fas fa-envelope"></i>
                 <div>
                   <h4>Email</h4>
-                  <p><a href="mailto:info@thebond.com">info@thebond.com</a></p>
+                  <p><a href="mailto:ventas@edificiothebond.es">ventas@edificiothebond.es</a></p>
                 </div>
               </div>
               <div class="contact-item">
@@ -523,7 +610,7 @@ app.get('/', (c) => {
               <a href="#contacto" class="btn btn-primary btn-lg">
                 <i class="fas fa-calendar-check"></i> Agenda tu Visita
               </a>
-              <a href="https://wa.me/59170000000" target="_blank" class="btn btn-whatsapp btn-lg">
+              <a href="https://wa.me/59176154045" target="_blank" class="btn btn-whatsapp btn-lg">
                 <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
               </a>
             </div>
@@ -571,8 +658,8 @@ app.get('/', (c) => {
             <div class="footer-col">
               <h4>Contacto</h4>
               <ul>
-                <li><i class="fas fa-phone"></i> +591 7000 0000</li>
-                <li><i class="fas fa-envelope"></i> info@thebond.com</li>
+                <li><i class="fas fa-phone"></i> +591 76154045</li>
+                <li><i class="fas fa-envelope"></i> ventas@edificiothebond.es</li>
                 <li><i class="fas fa-map-marker-alt"></i> Av. Banzer, 5º-6º Anillo</li>
               </ul>
             </div>
@@ -594,7 +681,7 @@ app.get('/', (c) => {
       </footer>
 
       {/* Floating WhatsApp Button */}
-      <a href="https://wa.me/59170000000" target="_blank" class="whatsapp-float">
+      <a href="https://wa.me/59176154045" target="_blank" class="whatsapp-float">
         <i class="fab fa-whatsapp"></i>
       </a>
 

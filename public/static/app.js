@@ -169,7 +169,7 @@ function initContactForm() {
           
           // Optional: Redirect to WhatsApp
           const whatsappMessage = `Hola! Me interesa ${formData.property}. Mi nombre es ${formData.name}.`;
-          const whatsappUrl = `https://wa.me/59170000000?text=${encodeURIComponent(whatsappMessage)}`;
+          const whatsappUrl = `https://wa.me/59176154045?text=${encodeURIComponent(whatsappMessage)}`;
           
           if (confirm('¿Deseas continuar la conversación por WhatsApp?')) {
             window.open(whatsappUrl, '_blank');
@@ -288,7 +288,7 @@ if (document.getElementById('propertyPrice')) {
 // ============= WHATSAPP INTEGRATION =============
 function openWhatsApp(message = '') {
   const defaultMessage = message || 'Hola! Me interesa información sobre The Bond Departamentos.';
-  const whatsappUrl = `https://wa.me/59170000000?text=${encodeURIComponent(defaultMessage)}`;
+  const whatsappUrl = `https://wa.me/59176154045?text=${encodeURIComponent(defaultMessage)}`;
   window.open(whatsappUrl, '_blank');
 }
 
@@ -313,4 +313,4 @@ function shareProperty(platform) {
 // ============= CONSOLE MESSAGE =============
 console.log('%c🏢 The Bond Departamentos', 'font-size: 20px; font-weight: bold; color: #1a4d2e;');
 console.log('%c💚 Tu inversión inteligente en Santa Cruz', 'font-size: 14px; color: #2d7a4f;');
-console.log('%c📞 Contacto: +591 7000 0000', 'font-size: 12px; color: #666;');
+console.log('%c📞 Contacto: +591 76154045', 'font-size: 12px; color: #666;');

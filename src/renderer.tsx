@@ -47,7 +47,7 @@ export const renderer = jsxRenderer(({ children }) => {
               <li><a href="#departamentos">Departamentos</a></li>
               <li><a href="#calculadora">Calculadora</a></li>
               <li><a href="#ubicacion">Ubicación</a></li>
-              <li><a href="#inversion">Inversión</a></li>
+              <li><a href="#servicios">Servicios</a></li>
               <li><a href="#contacto" class="btn btn-primary btn-sm">Contacto</a></li>
             </ul>
           </div>
